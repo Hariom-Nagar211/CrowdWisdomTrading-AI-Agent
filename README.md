@@ -97,14 +97,6 @@ This will:
 4. Send updates to configured Telegram channels
 5. Save all outputs to the `outputs/` directory
 
-### Generate English-Only PDF
-
-For clean English reports without multilingual content:
-
-```bash
-python english_pdf_generator.py
-```
-
 ### Output Files
 
 Each execution generates:
@@ -122,7 +114,7 @@ Each execution generates:
 |---------|---------|--------|
 | **Tavily Search** | Financial news aggregation | ✅ Active |
 | **Google Gemini** | AI analysis & translation | ✅ Active |
-| **Groq** | Alternative LLM processing | ⚠️ Deprecated models |
+| **Groq** | Alternative LLM processing |
 | **Telegram Bot** | Report distribution | ✅ Active |
 
 ### Rate Limits
